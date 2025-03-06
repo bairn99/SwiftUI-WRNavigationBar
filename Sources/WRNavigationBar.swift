@@ -107,7 +107,7 @@ public struct WRNavigationBar<Content>: View where Content: View {
                     .background(isDebug ? Color.red : Color.clear)
                 }
                 .frame(height: WRHelper.NavigationBar.height)
-                .padding(.top, WRHelper.UnsafeArea.top)
+                .padding(.top, WRHelper.StatusBar.height)
                 .foregroundColor(foreground)
                 .background(background)
                 .clipped()
