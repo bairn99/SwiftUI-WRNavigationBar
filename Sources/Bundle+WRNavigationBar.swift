@@ -7,6 +7,8 @@
 
 import Foundation
 
+private final class BundleHelper {}
+
 extension Bundle {
 
     private static var bundle: Bundle? = nil
@@ -20,6 +22,8 @@ extension Bundle {
 
             // For command-line tools.
             Bundle.main.bundleURL,
+
+            Bundle(for: BundleHelper.self).resourceURL,
         ]
 
         for candidate in candidates {
