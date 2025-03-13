@@ -33,7 +33,7 @@ struct WRDefaultBackButton: View {
         }) {
             backImage()
                 .resizable()
-                .frame(width: 13, height: 13)
+                .frame(width: 17, height: 17)
                 .aspectRatio(contentMode: .fit)
                 .foregroundColor(foreground)
         }
