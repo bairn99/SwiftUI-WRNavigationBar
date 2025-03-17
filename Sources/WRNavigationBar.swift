@@ -58,7 +58,7 @@ public struct WRNavigationBar<Content>: View where Content: View {
     private var trailingView: WRTrailingView
 
     // Max width of leadingView
-    private var leadingMaxWidth: CGFloat = 80
+    private var leadingMaxWidth: CGFloat = 120
 
     // Max width of trailingView
     private var trailingMaxWidth: CGFloat = 120
